@@ -8,9 +8,9 @@ void setup() {
 
 void loop() {
   digitalWrite (ledPin, HIGH);
-  digitalWrite (ledPin2, HIGH);
+  digitalWrite (ledPin2, LOW);
   delay (1000);
   digitalWrite (ledPin, LOW);
-  digitalWrite (ledPin2, LOW);
+  digitalWrite (ledPin2, HIGH);
   delay(1000);
 }
